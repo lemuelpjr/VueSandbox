@@ -1,1 +1,6 @@
-console.log('Testing is okay!');
+let app = new Vue({
+  el: '#app',
+  data: {
+    product: 'T-shirt'
+  }
+})
