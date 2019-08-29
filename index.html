@@ -11,19 +11,21 @@
 </head>
 
 <body>
-  <div id="app">
-    <!-- Navigation bar -->
-    <div class="nav-bar"></div>
+  <div class="container">
+    <div id="app">
+      <!-- Navigation bar -->
+      <div class="nav-bar"></div>
 
-    <!-- Product -->
-    <div class="product">
-      <div class="product__img">
-        <!-- Dynamically bind the src attribute to the image expression -->
-        <img v-bind:src="image" alt="A black T-shirt">
-      </div>
+      <!-- Product -->
+      <div class="product">
+        <div class="product__img">
+          <!-- Dynamically bind the src attribute to the image expression -->
+          <img v-bind:src="image" alt="A black T-shirt">
+        </div>
 
-      <div class="product__info">
-        <h1>{{ product }}</h1>
+        <div class="product__info">
+          <h1>{{ product }}</h1>
+        </div>
       </div>
     </div>
   </div>
