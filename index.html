@@ -19,8 +19,8 @@
       <!-- Product -->
       <div class="product">
         <div class="product__img">
-          <!-- Dynamically bind the src attribute to the image expression -->
-          <img v-bind:src="image" alt="A black T-shirt">
+          <!-- Dynamically bind the src attribute to the image expression and bind the alt attribute to the altText expression -->
+          <img v-bind:src="image" v-bind:alt="altText">
         </div>
 
         <div class="product__info">
