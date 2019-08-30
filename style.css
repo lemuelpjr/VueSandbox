@@ -36,3 +36,12 @@ body {
 .product__img img {
   width: 250px;
 }
+
+.product__info h1 {
+  margin-bottom: 30px;
+}
+
+.product__info p {
+  margin-bottom: 10px;
+  font-size: 20px;
+}

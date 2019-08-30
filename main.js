@@ -3,6 +3,7 @@ let app = new Vue({
   data: {
     product: 'T-shirt',
     image: 'img/black-tshirt.jpg',
-    altText: 'A black T-shirt'
+    altText: 'A black T-shirt',
+    inStock: true
   }
 })
