@@ -4,6 +4,7 @@ let app = new Vue({
     product: 'T-shirt',
     image: 'img/black-tshirt.jpg',
     altText: 'A black T-shirt',
-    inventory: 50
+    inventory: 50,
+    onSale: true
   }
 })
