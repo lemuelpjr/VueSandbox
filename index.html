@@ -35,6 +35,11 @@
             <li v-for="detail in details">{{ detail }}</li>
           </ul>
 
+          <p>Color variants:</p>
+          <ul>
+            <li v-for="variant in variants">{{ variant.variantColor }}</li>
+          </ul>
+
           <!-- v-show doesn't remove the element from the DOM -->
           <span v-show="onSale">ON SALE!</span>
         </div>

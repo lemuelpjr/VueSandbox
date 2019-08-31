@@ -6,6 +6,16 @@ let app = new Vue({
     altText: 'A black T-shirt',
     inventory: 50,
     onSale: true,
-    details: ['80% cotton', '20% polyester', 'For men']
+    details: ['80% cotton', '20% polyester', 'For men'],
+    variants: [
+      {
+        variantID: 2324,
+        variantColor: 'gray'
+      },
+      {
+        variantID: 4278,
+        variantColor: 'white'
+      }
+    ]
   }
 })
