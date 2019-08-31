@@ -5,6 +5,7 @@ let app = new Vue({
     image: 'img/black-tshirt.jpg',
     altText: 'A black T-shirt',
     inventory: 50,
-    onSale: true
+    onSale: true,
+    details: ['80% cotton', '20% polyester', 'For men']
   }
 })

@@ -47,6 +47,10 @@ body {
   font-size: 20px;
 }
 
+.product__info ul {
+  margin-bottom: 30px;
+}
+
 .product__info span {
   font-size: 20px;
   font-weight: bold;
