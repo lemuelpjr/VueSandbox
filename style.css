@@ -52,23 +52,24 @@ body {
 }
 
 .product > * {
-  margin: 10px;
+  margin: 15px;
 }
 
-.product__img img {
+.product__img {
   width: 250px;
+  align-self: flex-start;
 }
 
-.product__info h1 {
+.product__info--title {
   margin-bottom: 30px;
 }
 
-.product__info p {
+.product__info--paragraph {
   margin-bottom: 10px;
   font-size: 20px;
 }
 
-.product__info ul {
+.product__info--list {
   margin-bottom: 30px;
 }
 

@@ -25,20 +25,18 @@
     <div class="container">
       <!-- Product -->
       <div class="product">
-        <div class="product__img">
-          <!-- Dynamically bind the src attribute to the image expression and bind the alt attribute to the altText expression -->
-          <img v-bind:src="image" v-bind:alt="altText">
-        </div>
+        <!-- Dynamically bind the src attribute to the image expression and bind the alt attribute to the altText expression -->
+        <img class="product__img" v-bind:src="image" v-bind:alt="altText">
 
         <div class="product__info">
-          <h1>{{ product }}</h1>
+          <h1 class="product__info--title">{{ product }}</h1>
           <!-- Conditionals -->
-          <p v-if="inventory > 10">In stock</p>
-          <p v-else-if="inventory <= 10 && inventory > 0">Almost sold out!</p>
-          <p v-else>Out of stock</p>
+          <p class="product__info--paragraph" v-if="inventory > 10">In stock</p>
+          <p class="product__info--paragraph" v-else-if="inventory <= 10 && inventory > 0">Almost sold out!</p>
+          <p class="product__info--paragraph" v-else>Out of stock</p>
 
           <!-- Loop thru an array using v-for -->
-          <ul>
+          <ul class="product__info--list">
             <li v-for="detail in details">{{ detail }}</li>
           </ul>
 
@@ -46,14 +44,14 @@
           <span v-show="onSale">ON SALE!</span>
 
           <!-- Colors -->
-          <p>Color variants:</p>
-          <ul>
+          <p class="product__info--paragraph">Color variants:</p>
+          <ul class="product__info--list">
             <li v-for="variant in variants">{{ variant.variantColor }}</li>
           </ul>
 
           <!-- Sizes -->
-          <p>Available sizes:</p>
-          <ul>
+          <p class="product__info--paragraph">Available sizes:</p>
+          <ul class="product__info--list">
             <li v-for="size in sizes">{{ size }}</li>
           </ul>
         </div>
