@@ -1,8 +1,27 @@
-// Define general navigation bar layout
+// General navigation bar layout
 .nav-bar {
   background-color: $color-black;
   height: 5.2rem;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+
+  &__btn {
+    background-color: $color-green;
+    font-size: $font-size-sm;
+    padding: $padding-sm;
+    border: none;
+    cursor: pointer;
+  }
+
+  &__items {
+    color: $color-white;
+    font-size: $font-size-sm;
+    margin-left: $margin-lg;
+  }
 }

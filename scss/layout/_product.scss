@@ -3,8 +3,39 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-}
 
-.product > * {
-  margin: $margin-sm;
+  & > * {
+    margin: $margin-sm;
+  }
+
+  &__img {
+    width: 25rem;
+    align-self: flex-start;
+  }
+
+  &__info {
+    &--title {
+      color: $color-black;
+      font-size: $font-size-lg;
+      font-weight: bold;
+      margin-bottom: $margin-lg;
+    }
+
+    &--paragraph {
+      margin-bottom: $margin-sm;
+      font-size: $font-size-md;
+    }
+
+    &--list {
+      font-size: $font-size-sm;
+      margin-bottom: $margin-lg;
+    }
+
+    & span {
+      font-size: $font-size-md;
+      font-weight: bold;
+      display: inline-block;
+      margin-bottom: $margin-lg;
+    }
+  }
 }
