@@ -1,0 +1,98 @@
+/* Import vendors folder here */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  font-size: 100%;
+  font-weight: normal; }
+
+html {
+  font-family: sans-serif;
+  font-size: 62.5%;
+  overflow-x: hidden;
+  width: 100%; }
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+  width: 100%; }
+
+.container {
+  max-width: 80rem;
+  margin: 3rem auto;
+  padding: 1.5rem; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif; }
+
+.nav-bar {
+  background-color: #333;
+  height: 5.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly; }
+
+.product > * {
+  margin: 1.5rem; }
+
+.cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .cart__btn {
+    background-color: #9f3;
+    font-size: 1.6rem;
+    padding: 0.8rem;
+    border: none;
+    cursor: pointer; }
+  .cart__items {
+    color: #fff;
+    font-size: 1.6rem;
+    margin-left: 2.5rem; }
+
+.product__img {
+  width: 25rem;
+  -ms-flex-item-align: start;
+      align-self: flex-start; }
+
+.product__info--title {
+  color: #333;
+  font-size: 2.6rem;
+  font-weight: bold;
+  margin-bottom: 2.5rem; }
+.product__info--paragraph {
+  margin-bottom: 1.5rem;
+  font-size: 2rem; }
+.product__info--list {
+  font-size: 1.6rem;
+  margin-bottom: 2.5rem; }
+.product__info span {
+  font-size: 2rem;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 2.5rem; }
+
+/*# sourceMappingURL=main.css.map */

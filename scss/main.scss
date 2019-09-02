@@ -1,0 +1,27 @@
+// 1. Configuration and helpers
+@import
+  'abstracts/variables';
+
+// 2. Vendors
+/* Import vendors folder here */
+
+// 3. Base stuff
+@import
+  'base/reset',
+  'base/base',
+  'base/typography';
+
+// 4. Layout-related sections
+@import
+  'layout/navbar',
+  'layout/product';
+
+// 5. Components
+@import 'components/cart',
+        'components/product';
+
+// 6. Page-specific styles
+// Import pages folder here (if project has more than one page)
+
+// 7. Themes
+// Import themes folder here (if project has more than one theme)

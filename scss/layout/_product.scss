@@ -1,0 +1,10 @@
+// Define general product layout
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.product > * {
+  margin: $margin-sm;
+}

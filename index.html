@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="css/main.css">
 
   <title>Vue Sandbox</title>
 </head>
@@ -24,7 +25,7 @@
 
     <div class="container">
       <!-- Product -->
-      <div class="product">
+      <section class="product">
         <!-- Dynamically bind the src attribute to the image expression and bind the alt attribute to the altText expression -->
         <img class="product__img" v-bind:src="image" v-bind:alt="altText">
 
@@ -55,7 +56,7 @@
             <li v-for="size in sizes">{{ size }}</li>
           </ul>
         </div>
-      </div>
+      </section>
     </div>
   </div>
 

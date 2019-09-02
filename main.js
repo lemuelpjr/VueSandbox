@@ -10,11 +10,11 @@ let app = new Vue({
     variants: [
       {
         variantID: 2324,
-        variantColor: 'gray'
+        variantColor: 'Gray'
       },
       {
         variantID: 4278,
-        variantColor: 'white'
+        variantColor: 'White'
       }
     ],
     sizes: ['S', 'M', 'L', 'XL'],
