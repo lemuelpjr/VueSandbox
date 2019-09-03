@@ -17,7 +17,7 @@
     <div class="nav-bar">
       <div class="cart">
         <!-- Add to cart button -->
-        <button class="cart__btn">Add to cart</button>
+        <button class="cart__btn" v-on:click="addToCart">Add to cart</button>
         <!-- Cart items quantity -->
         <p class="cart__items">Cart: {{ cart }}</p>
       </div>
